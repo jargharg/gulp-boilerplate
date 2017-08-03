@@ -13,5 +13,5 @@ gulp.task("styles", function(){
 		this.emit("end");
 		console.log(info.toString());
 	})
-	.pipe(gulp.dest("./app/temp/assets/css"));
+	.pipe(gulp.dest("./app/temp/css"));
 });
